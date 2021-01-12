@@ -1,2 +1,9 @@
-node_modules
-public
+# Dependency directories
+node_modules/
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Public folder
+public/
