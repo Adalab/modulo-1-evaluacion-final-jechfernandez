@@ -1,8 +1,21 @@
-@import 'core/variables';
+//CORE
 @import 'core/reset';
-@import 'components/code';
-@import 'components/links';
+@import 'core/variables';
+@import 'core/mixins'
+
+html {
+    scroll-behavior: smooth;
+}
+
+//LAYOUT
 @import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
+
+@import 'components/code';
+@import 'components/links';
+
 @import 'pages/index';
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
