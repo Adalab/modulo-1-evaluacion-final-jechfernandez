@@ -1,0 +1,19 @@
+.module__first{
+    height: 376px;
+    padding: 30px 15px 45px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    &--tips{
+        color: $colorBrand-5;
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
+
+    &--title{
+        font-family: $font-second;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
