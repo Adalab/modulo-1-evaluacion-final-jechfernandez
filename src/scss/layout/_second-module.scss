@@ -4,8 +4,8 @@
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 10px;
     padding: 30px 15px 60px 15px;
+    font-family: $font-main;
 
     &--title{
         font-family: $font-second;
@@ -43,7 +43,7 @@
     color: $colorBrand-1;
     line-height: 2.25;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0px auto;
     padding-bottom: 5px;
     transition: color ease 0.2s;
@@ -70,12 +70,13 @@
 
     .article{
         &__text{
-            padding-bottom: 60px;
+            height: 68px;
         }
     }
 
     .button-2{
         grid-column: 1/4;
+        grid-row: 4;
     }
 }
 
