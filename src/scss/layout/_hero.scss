@@ -9,6 +9,7 @@
     padding-top: 284px;
     text-align: center;
     color: $colorBrand-1;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 
     &__title--main{
         text-transform: uppercase;
@@ -39,4 +40,24 @@
             margin: 18px auto;
         }
     }
+}
+
+@include tablet {
+    .hero{
+
+        padding-top: 300px;
+
+       &__title--main{
+           font-size: 80px;
+           line-height: 106px;
+           margin-bottom: 20px;
+       }
+
+       &__title--sub{
+           font-size: 24px;
+           margin-bottom: 30px;
+       }
+       
+    }
+
 }
