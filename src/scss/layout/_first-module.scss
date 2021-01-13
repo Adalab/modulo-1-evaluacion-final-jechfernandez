@@ -15,5 +15,27 @@
         font-family: $font-second;
         font-weight: bold;
         text-transform: capitalize;
+        line-height: 1.25;
+    }
+
+    &--text{
+        font-size: 18px;
+        color: $colorBrand-6;
+        line-height: 1.67;
+    }
+
+    .button-1{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 20px;
+        color: $colorBrand-2;
+        height: 45px;
+        width: 76px;
+        border: 2px solid $colorBrand-2;
+        border-radius: 22.5px;
+        text-align: center;
+        line-height: 2.25;
+        padding-bottom: 5px;
+        margin-top: 25px;
     }
 }

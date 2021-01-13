@@ -32,9 +32,25 @@
     
   }
 
+  &__button--link{
+      position: absolute;    
+      bottom: -1020px;
+      height: 45px;
+      width: 45px;
+      left: 45vw;
+      border-radius: 50px;
+      margin: 0 auto;
+      background-color: $colorBrand-1;
+
+      &--icon{
+          /*Centrar flecha*/
+      }
+  }
+  }
+
   .fa-heart{
     color: $colorBrand-2;
   }
   
-}
+
 

@@ -1,6 +1,6 @@
 //CORE
 @import 'core/reset';
-@import 'core/variables';
+@import "core/variables";
 @import 'core/mixins';
 
 //LAYOUT
@@ -16,11 +16,11 @@
 
 @import 'pages/index';
 
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;*/
-
 /*
 html{
     scroll-behavior: smooth;
 }*/
 
+body{
+    font-family: $font-main;
+}

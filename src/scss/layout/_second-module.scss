@@ -1,0 +1,51 @@
+.module__second{
+    background-color: $colorBg-1;
+    height: 624px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    padding: 30px 15px 60px 15px;
+
+    &--title{
+        font-family: $font-second;
+        font-size: 24px;
+        line-height: 1.25;
+        padding-bottom: 45px;
+    }
+}
+
+.article{
+    width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.67;
+
+    &__title{
+        font-family: $font-second;
+        
+    }
+
+    &__text{
+       padding-bottom: 45px;
+        
+    }
+
+}
+
+.button-2{
+    width: 184px;
+    height: 45px;
+    background-color: $colorBrand-2;
+    border-radius: 25.5px;
+    text-decoration: none;
+    text-align: center;
+    color: $colorBrand-1;
+    line-height: 2.25;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px auto;
+    padding-bottom: 5px;
+
+
+}
