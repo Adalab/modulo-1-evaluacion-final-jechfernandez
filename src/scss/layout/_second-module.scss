@@ -46,6 +46,27 @@
     font-weight: 500;
     margin: 0px auto;
     padding-bottom: 5px;
+}
 
+@include tablet{
+    .module__second{
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 397px;
+        padding: 30px 39px 60px 39px;
+    }
 
+    .grid-item{
+        grid-column: 1/4;
+    }
+
+    .article{
+        &__text{
+            padding-bottom: 60px;
+        }
+    }
+
+    .button-2{
+        grid-column: 1/4;
+    }
 }

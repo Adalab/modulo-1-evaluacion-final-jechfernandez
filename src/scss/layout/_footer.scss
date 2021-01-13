@@ -41,6 +41,7 @@
       border-radius: 50px;
       margin: 0 auto;
       background-color: $colorBrand-1;
+      box-shadow: 0 2px 4px 0 black;
 
       &--icon{
           /*Centrar flecha*/
@@ -52,5 +53,65 @@
     color: $colorBrand-2;
   }
   
+  @include tablet {
+    .footer{
+      height: 240px;
+      padding: 45px 39px;
+      flex-direction: row;
+      text-align: start;
+      justify-content: space-between;
 
+      &__nav{
+        margin-bottom: 0;
+        width: 210px;
+      }
 
+      &__small{
+        width: 210px;
+      }
+
+      &__button--link{
+        bottom: -750px;
+        left: 46vw;
+
+        &--icon{
+        width: 20.6px;
+        height: 24px;
+        margin: 0;
+        
+        }
+      }
+    }
+
+    .order-left{
+      order: 1;
+    }
+
+    .order-center{
+      order: 2;
+    }
+
+    .order-right{
+      order: 3;
+    }
+
+    @include desktop{
+      .footer{
+        padding: 45px 370px;
+        justify-content: space-around;
+        
+        &__nav{
+          width: 161px;
+        }
+        
+        &__small{
+          width: 159px;
+        }
+
+        
+      }
+    }
+
+  }
+
+/*Ordenar elementos footer*/

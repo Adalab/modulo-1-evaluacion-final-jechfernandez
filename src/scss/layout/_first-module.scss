@@ -15,6 +15,7 @@
         font-family: $font-second;
         font-weight: bold;
         text-transform: capitalize;
+        font-size: 24px;
         line-height: 1.25;
     }
 
@@ -38,4 +39,28 @@
         padding-bottom: 5px;
         margin-top: 25px;
     }
+}
+
+@include tablet {
+    .module__first{
+        height: 330px;
+        width: 768px;
+        padding: 39px 60px;
+
+        &--title{
+            line-height: 1.73;
+            font-size: 26px;
+        }
+
+        &--text{
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        .button-1{
+            width: 90px;
+        }
+    }
+    
+
 }
