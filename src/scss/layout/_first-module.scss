@@ -38,6 +38,14 @@
         line-height: 2.25;
         padding-bottom: 5px;
         margin-top: 25px;
+        transition: color ease 0.5s;
+
+        &:hover{
+            width: 100px;
+            background-color: $colorBrand-2;
+            color: $colorBrand-1;
+            
+        }
     }
 }
 
@@ -61,6 +69,37 @@
             width: 90px;
         }
     }
-    
+}
 
+@include desktop{
+    .module__first{
+        height: 360px;
+        margin: 60px 275px;
+        padding: 0%;
+        width: 730px;
+        justify-content: unset;
+
+        &--tips{
+            font-size: 16px;
+            height: 30px;
+        }
+
+        &--title{
+            font-size: 32px;
+            line-height: 1.41;
+            padding-bottom: 30px;
+            
+        }
+
+        &--text{
+            font-size: 20px;
+            line-height: 1.5;
+            padding-bottom: 30px;
+            
+        }
+
+        .button-1{
+            width: 160px;
+        }
+    }
 }

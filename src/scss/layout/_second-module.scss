@@ -46,6 +46,14 @@
     font-weight: 500;
     margin: 0px auto;
     padding-bottom: 5px;
+    transition: color ease 0.2s;
+
+    &:hover{
+        background-color: $colorBrand-1;
+        color: $colorBrand-2;
+        border: 1px solid $colorBrand-2;
+        
+    }
 }
 
 @include tablet{
@@ -61,6 +69,29 @@
     }
 
     .article{
+        &__text{
+            padding-bottom: 60px;
+        }
+    }
+
+    .button-2{
+        grid-column: 1/4;
+    }
+}
+
+@include desktop{
+    .module__second{
+       column-gap: 5px;
+        height: 427px;
+        padding: 60px 85px 60px 81.2px;
+    }
+
+    .article{
+        width: 353.8px;
+        padding: 0 40px;
+        margin: 0;
+
+
         &__text{
             padding-bottom: 60px;
         }
